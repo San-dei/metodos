@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MyMethods
 
-## Getting Started
+Este proyecto implementa varias funciones manuales en un entorno interactivo utilizando Next.js y React. A continuación, encontrarás las instrucciones para instalar y ejecutar el proyecto.
 
-First, run the development server:
+## Requisitos previos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Asegúrate de tener instalado lo siguiente en tu sistema:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Node.js](https://nodejs.org/) (versión 18 o superior).
+- [npm](https://www.npmjs.com/) (incluido con Node.js) o [yarn](https://yarnpkg.com/).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Instalación
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clona el repositorio en tu máquina local:
 
-## Learn More
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Cambia al directorio del proyecto:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd mymethods
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Instala las dependencias:
 
-## Deploy on Vercel
+   Usando `npm`:
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   O usando `yarn`:
+   ```bash
+   yarn install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Scripts disponibles
+
+En el archivo `package.json`, se incluyen los siguientes scripts:
+
+- `dev`: Inicia el servidor de desarrollo con TurboPack.
+  ```bash
+  npm run dev
+  ```
+  O con yarn:
+  ```bash
+  yarn dev
+  ```
+
+- `build`: Genera una versión optimizada para producción.
+  ```bash
+  npm run build
+  ```
+
+- `start`: Inicia el servidor en modo producción (después de ejecutar `build`).
+  ```bash
+  npm run start
+  ```
+
+- `lint`: Ejecuta ESLint para analizar el código y encontrar problemas.
+  ```bash
+  npm run lint
+  ```
+
+## Ejecución del proyecto
+
+1. Inicia el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+   O con yarn:
+   ```bash
+   yarn dev
+   ```
+
+2. Abre tu navegador y navega a [http://localhost:3000](http://localhost:3000) para ver la aplicación en acción.
+
+## Tecnologías utilizadas
+
+- **Next.js**: Framework para aplicaciones web modernas.
+- **React**: Biblioteca de interfaces de usuario.
+- **TypeScript**: Superconjunto tipado de JavaScript.
+- **ESLint**: Herramienta para analizar el código.
+
+## Notas
+
+- Este proyecto está configurado con Next.js 15 y React 19 en versión RC.
+- Las funcionalidades principales están desarrolladas con TypeScript para garantizar un código más seguro y mantenible.
+
+## Contribuir
+
+Si deseas contribuir a este proyecto, realiza un fork, crea una rama para tus cambios y abre un pull request:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama:
+   ```bash
+   git checkout -b nombre-de-tu-rama
+   ```
+3. Realiza tus cambios y haz commit:
+   ```bash
+   git commit -m "Descripcion de tus cambios"
+   ```
+4. Sube tus cambios:
+   ```bash
+   git push origin nombre-de-tu-rama
+   ```
+5. Abre un pull request en el repositorio original.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes consultarla en el archivo `LICENSE`.
+
