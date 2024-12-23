@@ -19,7 +19,7 @@ const Includes = () => {
 
   return (
     <div>
-      <h1>Muestra un resultado por consola - Metodo Includes</h1>
+      Muestra un resultado por consola - Metodo Includes
     </div>
   );
 };

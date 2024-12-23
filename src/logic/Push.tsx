@@ -14,7 +14,7 @@ const Push = () => {
 
   return (
     <div>
-      <h1>Muestra un resultado por consola - Metodo Push</h1>
+      Muestra un resultado por consola - Metodo Push
     </div>
   );
 };

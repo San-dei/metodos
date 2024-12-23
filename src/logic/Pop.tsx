@@ -12,7 +12,7 @@ const Pop = () => {
 
   return (
     <div>
-      <h1>Muestra un resultado por consola - Metodo Pop</h1>
+      Muestra un resultado por consola - Metodo Pop
     </div>
   );
 };

@@ -16,7 +16,7 @@ const IndexOf = () => {
 
   return (
     <div>
-      <h1>Muestra un resultado por consola - Metodo IndexOf</h1>
+      Muestra un resultado por consola - Metodo IndexOf
     </div>
   );
 };

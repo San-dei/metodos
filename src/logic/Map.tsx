@@ -25,7 +25,7 @@ const Map = () => {
 
   return (
     <div>
-      <h1>Muestra un resultado por consola - Metodo Map</h1>
+      Muestra un resultado por consola - Metodo Map
     </div>
   );
 };
