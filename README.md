@@ -14,7 +14,7 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
 1. Clona el repositorio en tu máquina local:
 
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/San-dei/metodos.git
    ```
 
 2. Cambia al directorio del proyecto:
