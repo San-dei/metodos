@@ -7,6 +7,7 @@ import Includes from "@/logic/Includes";
 import ForEach from "@/logic/ForEach";
 import Map from "@/logic/Map";
 import styles from "../styles/page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
           Pero tambien puede mirarlo directamente al hacer click en las cartas, de esa forma puede observar de forma rapida la logica y de forma mas interactiva.
         </p>
 
-        <h3 className={styles.warning}>Esto es un early acces</h3>
+        <h3 className={styles.warning}>Esto es un early acces: <Link href={"https://github.com/San-dei/metodos"} className={styles.warning}>Repositorio</Link></h3>
       </div>
 
       <div className={styles.methodContainer}>
